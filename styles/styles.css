@@ -1,7 +1,12 @@
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: pink;
+  text-align: center;
 }
 h2 {
   color: black;
+  text-align: center;
+}
+body {
+  background-color: burlywood;
 }
