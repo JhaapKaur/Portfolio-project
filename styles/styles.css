@@ -1,11 +1,22 @@
+:root {
+  --branding-color: rgb(235, 106, 127);
+  --heading-font-family: "Inconsolata", monospace;
+  --default-font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Inconsolata", monospace;
-  color: pink;
+  font-family: var(--heading-font-family);
+  color: black;
+  font-weight: bold;
 }
 
 h1 {
@@ -16,9 +27,14 @@ h2 {
   color: black;
 }
 
+p {
+  font-weight: normal;
+}
+
 .hero {
-  background: burlywood;
+  background: rgb(221, 193, 169);
   text-align: center;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -31,4 +47,13 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
   font-size: 24px;
+}
+
+.btn-branding {
+  background: var (--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
