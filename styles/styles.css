@@ -1,5 +1,6 @@
 :root {
   --branding-color: rgb(235, 106, 127);
+  --secondary-color: rgb(221, 193, 169)
   --heading-font-family: "Inconsolata", monospace;
   --default-font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -32,7 +33,7 @@ p {
 }
 
 .hero {
-  background: rgb(221, 193, 169);
+  background: rgb(211, 161, 143);
   text-align: center;
   padding: 160px 20px;
 }
